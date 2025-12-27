@@ -63,6 +63,7 @@ h5,
 }
 
 .hero-section img {
+  height: 100%;
   object-fit: cover;
 }
 
@@ -72,6 +73,7 @@ h5,
     min-height: unset !important;
     padding-top: 80px; /* Compensate for fixed navbar */
   }
+  
   .hero-section img {
     height: auto !important;
     object-fit: contain;
