@@ -62,6 +62,22 @@ h5,
   position: relative;
 }
 
+.hero-section img {
+  object-fit: cover;
+}
+
+@media (max-width: 991px) {
+  .hero-section {
+    height: auto !important;
+    min-height: unset !important;
+    padding-top: 80px; /* Compensate for fixed navbar */
+  }
+  .hero-section img {
+    height: auto !important;
+    object-fit: contain;
+  }
+}
+
 /* Buttons */
 .btn-gold {
   background-color: var(--color-gold);
