@@ -56,15 +56,18 @@ h5,
 
 /* Hero Section */
 .hero-section {
-  height: 100vh;
-  min-height: 600px;
+  height: auto;
+  min-height: unset;
   background-color: #000; /* Fallback color */
   position: relative;
+  padding-top: 80px; /* Adjust for fixed navbar */
 }
 
 .hero-section img {
-  height: 100%;
-  object-fit: cover;
+  height: auto;
+  width: 100%;
+  object-fit: contain;
+  display: block;
 }
 
 @media (max-width: 991px) {
