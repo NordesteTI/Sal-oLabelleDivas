@@ -60,7 +60,6 @@ h5,
   min-height: unset;
   background-color: #000; /* Fallback color */
   position: relative;
-  padding-top: 80px; /* Adjust for fixed navbar */
 }
 
 .hero-section img {
@@ -74,7 +73,6 @@ h5,
   .hero-section {
     height: auto !important;
     min-height: unset !important;
-    padding-top: 80px; /* Compensate for fixed navbar */
   }
   
   .hero-section img {
